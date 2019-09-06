@@ -13,7 +13,9 @@
 		4E85CDE614628AF02357487752DD4315 /* Pods-SSEmptyView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A11A21100610567D4A70D8757D4F2F50 /* Pods-SSEmptyView_Tests-dummy.m */; };
 		64933903F8647FDEFB781B1792D787CE /* SSEmptyView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 94FFE32CED9728536BD0EE767B4B6E28 /* SSEmptyView-dummy.m */; };
 		76699364197ABD8BEBE6F96E0538BEC8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		98432BDE2322C5E800CFDF9E /* SSEmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98432BDD2322C5E800CFDF9E /* SSEmptyView.swift */; };
+		98432BE42322CB3100CFDF9E /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 98432BE12322CB3100CFDF9E /* .gitkeep */; };
+		98432BE52322CB3100CFDF9E /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 98432BE32322CB3100CFDF9E /* .gitkeep */; };
+		98432BE82322CB5900CFDF9E /* SSEmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98432BE72322CB5900CFDF9E /* SSEmptyView.swift */; };
 		C42FC7BC78A71AD29B2ACF61C56D0DE8 /* Pods-SSEmptyView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F0A8C38A685FAD1629E81D40B70DDB87 /* Pods-SSEmptyView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EBC1CC25B833626BDB99A6C10B7CCFA1 /* SSEmptyView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A47DD76A0F9EFF5847673457492B5A5F /* SSEmptyView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EC3EB4F8F77A2DDF0CAF93E3342139B4 /* Pods-SSEmptyView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A29A9BC1FC76368A7FAFBA2A04445F3 /* Pods-SSEmptyView_Example-dummy.m */; };
@@ -50,7 +52,9 @@
 		8F0007BCACF84E06B53288FF4594A80C /* SSEmptyView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SSEmptyView.modulemap; sourceTree = "<group>"; };
 		903971A6195993C1EEDA659A98A79FD7 /* Pods-SSEmptyView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SSEmptyView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		94FFE32CED9728536BD0EE767B4B6E28 /* SSEmptyView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SSEmptyView-dummy.m"; sourceTree = "<group>"; };
-		98432BDD2322C5E800CFDF9E /* SSEmptyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSEmptyView.swift; sourceTree = "<group>"; };
+		98432BE12322CB3100CFDF9E /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		98432BE32322CB3100CFDF9E /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		98432BE72322CB5900CFDF9E /* SSEmptyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSEmptyView.swift; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DF0AAB8EBE4C45A372CD76897521728 /* Pods_SSEmptyView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SSEmptyView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A09F48B34F0739E6EF409E734D0EE5F9 /* Pods-SSEmptyView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SSEmptyView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -173,18 +177,36 @@
 			path = "Target Support Files/Pods-SSEmptyView_Tests";
 			sourceTree = "<group>";
 		};
-		98432BD72322BEDB00CFDF9E /* Classes */ = {
+		98432BDF2322CB3100CFDF9E /* SSEmptyView */ = {
 			isa = PBXGroup;
 			children = (
-				98432BDC2322C5BE00CFDF9E /* SSView */,
+				98432BE02322CB3100CFDF9E /* Classes */,
+				98432BE22322CB3100CFDF9E /* Assets */,
+			);
+			path = SSEmptyView;
+			sourceTree = "<group>";
+		};
+		98432BE02322CB3100CFDF9E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				98432BE62322CB5900CFDF9E /* SSView */,
+				98432BE12322CB3100CFDF9E /* .gitkeep */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
 		};
-		98432BDC2322C5BE00CFDF9E /* SSView */ = {
+		98432BE22322CB3100CFDF9E /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				98432BDD2322C5E800CFDF9E /* SSEmptyView.swift */,
+				98432BE32322CB3100CFDF9E /* .gitkeep */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		98432BE62322CB5900CFDF9E /* SSView */ = {
+			isa = PBXGroup;
+			children = (
+				98432BE72322CB5900CFDF9E /* SSEmptyView.swift */,
 			);
 			path = SSView;
 			sourceTree = "<group>";
@@ -200,7 +222,7 @@
 		C04F5191219827A11A4B41F98DDC2C55 /* SSEmptyView */ = {
 			isa = PBXGroup;
 			children = (
-				98432BD72322BEDB00CFDF9E /* Classes */,
+				98432BDF2322CB3100CFDF9E /* SSEmptyView */,
 				74E639EF8DEC09920B44B876B634F41A /* Pod */,
 				5FEDEC31D29890377EC7BBB2217D52EF /* Support Files */,
 			);
@@ -362,6 +384,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98432BE42322CB3100CFDF9E /* .gitkeep in Resources */,
+				98432BE52322CB3100CFDF9E /* .gitkeep in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,8 +426,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				98432BDE2322C5E800CFDF9E /* SSEmptyView.swift in Sources */,
 				EC3EB4F8F77A2DDF0CAF93E3342139B4 /* Pods-SSEmptyView_Example-dummy.m in Sources */,
+				98432BE82322CB5900CFDF9E /* SSEmptyView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -173,14 +173,6 @@
 			path = "Target Support Files/Pods-SSEmptyView_Tests";
 			sourceTree = "<group>";
 		};
-		98432BD22322BE6300CFDF9E /* SSView */ = {
-			isa = PBXGroup;
-			children = (
-				98432BD72322BEDB00CFDF9E /* Classes */,
-			);
-			path = SSView;
-			sourceTree = "<group>";
-		};
 		98432BD72322BEDB00CFDF9E /* Classes */ = {
 			isa = PBXGroup;
 			children = (
@@ -208,7 +200,7 @@
 		C04F5191219827A11A4B41F98DDC2C55 /* SSEmptyView */ = {
 			isa = PBXGroup;
 			children = (
-				98432BD22322BE6300CFDF9E /* SSView */,
+				98432BD72322BEDB00CFDF9E /* Classes */,
 				74E639EF8DEC09920B44B876B634F41A /* Pod */,
 				5FEDEC31D29890377EC7BBB2217D52EF /* Support Files */,
 			);

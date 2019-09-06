@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SSEmptyView_Example' do
+  pod 'SSEmptyView', :path => '../'
+
+  target 'SSEmptyView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

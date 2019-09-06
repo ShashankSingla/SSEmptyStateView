@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1420593BCFF55C4AE0CCE1D2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		1420593BCFF55C4AE0CCE1D2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		53B6996D2E08C462BC463B81 /* Pods-SSEmptyView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSEmptyView_Example.release.xcconfig"; path = "Target Support Files/Pods-SSEmptyView_Example/Pods-SSEmptyView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		5F85C464E472CFB1EB8D3B89 /* Pods_SSEmptyView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SSEmptyView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* SSEmptyView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SSEmptyView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,8 +43,8 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		BA65924BCFAD18DEF2684459 /* Pods-SSEmptyView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSEmptyView_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SSEmptyView_Tests/Pods-SSEmptyView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		CF4DBE19B3B1C82AA13B1527 /* Pods-SSEmptyView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSEmptyView_Example.debug.xcconfig"; path = "Target Support Files/Pods-SSEmptyView_Example/Pods-SSEmptyView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		DCCA976A3129D455487F7129 /* SSEmptyView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SSEmptyView.podspec; path = ../SSEmptyView.podspec; sourceTree = "<group>"; };
-		ED9BBCC74CA6C0B56F8DE40F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		DCCA976A3129D455487F7129 /* SSEmptyView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SSEmptyView.podspec; path = ../SSEmptyView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		ED9BBCC74CA6C0B56F8DE40F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		F025BFAD86A3CE9C6855918A /* Pods_SSEmptyView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SSEmptyView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1AD0E38D32D9718F9B970CD /* Pods-SSEmptyView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSEmptyView_Tests.release.xcconfig"; path = "Target Support Files/Pods-SSEmptyView_Tests/Pods-SSEmptyView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -147,7 +147,6 @@
 				BA65924BCFAD18DEF2684459 /* Pods-SSEmptyView_Tests.debug.xcconfig */,
 				F1AD0E38D32D9718F9B970CD /* Pods-SSEmptyView_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

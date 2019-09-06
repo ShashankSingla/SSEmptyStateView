@@ -1,0 +1,6 @@
+framework module SSEmptyView {
+  umbrella header "SSEmptyView-umbrella.h"
+
+  export *
+  module * { export * }
+}

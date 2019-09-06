@@ -1,0 +1,22 @@
+{
+  "name": "SSEmptyView",
+  "version": "0.1.0",
+  "summary": "A short description of SSEmptyView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/shashanksingla/SSEmptyView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "shashanksingla": "singla.26july@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/shashanksingla/SSEmptyView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SSEmptyView/Classes/**/*"
+}

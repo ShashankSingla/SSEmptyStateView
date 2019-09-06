@@ -9,11 +9,11 @@ import Foundation
 import UIKit
 
 
-protocol EmptyViewDelegate: class {
+public protocol EmptyViewDelegate: class {
     func viewDidRefreshTapped()
 }
 
-public class SSEmptyView: UIView {
+open class SSEmptyView: UIView {
     public var imageName: String? {
         didSet {
             if let imageName = imageName, let image = UIImage(named: imageName) {
@@ -144,7 +144,7 @@ public class SSEmptyView: UIView {
     }()
     
     
-    weak var delegate: EmptyViewDelegate?
+    open weak var delegate: EmptyViewDelegate?
     
     override public init(frame: CGRect) {
         super.init(frame: frame)
@@ -172,12 +172,12 @@ public class SSEmptyView: UIView {
         setStackViewConstraints()
     }
     
-    override public func layoutSubviews() {
+    override open func layoutSubviews() {
         super.layoutSubviews()
         setStackViewConstraints()
     }
     
-    override public func updateConstraints() {
+    override open func updateConstraints() {
         super.updateConstraints()
         setStackViewConstraints()
     }

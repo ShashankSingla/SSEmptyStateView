@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SSEmptyView'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'SSEmptyView for adding a empty state view in project'
   s.swift_versions = '4.0'
 

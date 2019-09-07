@@ -15,6 +15,7 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		72A98DC3C21DA0AA2DF316A7 /* Pods_SSEmptyView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F025BFAD86A3CE9C6855918A /* Pods_SSEmptyView_Tests.framework */; };
+		9857E066232382D50096864C /* SSEmptyView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9857E065232382D50096864C /* SSEmptyView.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +42,9 @@
 		607FACE51AFB9204008FA782 /* SSEmptyView_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SSEmptyView_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
+		98432BF92323798A00CFDF9E /* SSEmptyView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SSEmptyView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		98432BFB23237DF600CFDF9E /* SSEmptyView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SSEmptyView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9857E065232382D50096864C /* SSEmptyView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SSEmptyView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA65924BCFAD18DEF2684459 /* Pods-SSEmptyView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSEmptyView_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SSEmptyView_Tests/Pods-SSEmptyView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		CF4DBE19B3B1C82AA13B1527 /* Pods-SSEmptyView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSEmptyView_Example.debug.xcconfig"; path = "Target Support Files/Pods-SSEmptyView_Example/Pods-SSEmptyView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		DCCA976A3129D455487F7129 /* SSEmptyView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SSEmptyView.podspec; path = ../SSEmptyView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -54,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9857E066232382D50096864C /* SSEmptyView.framework in Frameworks */,
 				572C024C7A0A1444B46BC9C5 /* Pods_SSEmptyView_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -153,6 +158,9 @@
 		A299190FBF03B14B46693D38 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9857E065232382D50096864C /* SSEmptyView.framework */,
+				98432BFB23237DF600CFDF9E /* SSEmptyView.framework */,
+				98432BF92323798A00CFDF9E /* SSEmptyView.framework */,
 				5F85C464E472CFB1EB8D3B89 /* Pods_SSEmptyView_Example.framework */,
 				F025BFAD86A3CE9C6855918A /* Pods_SSEmptyView_Tests.framework */,
 			);
@@ -479,6 +487,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SSEmptyView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -494,6 +503,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SSEmptyView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -507,6 +517,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BA65924BCFAD18DEF2684459 /* Pods-SSEmptyView_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -529,6 +540,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F1AD0E38D32D9718F9B970CD /* Pods-SSEmptyView_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",

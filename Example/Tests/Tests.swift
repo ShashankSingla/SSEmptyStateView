@@ -1,5 +1,4 @@
 import XCTest
-import SSEmptyView
 
 class Tests: XCTestCase {
     
